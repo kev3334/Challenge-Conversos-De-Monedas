@@ -25,7 +25,7 @@ public class MenuPrincipal {
             System.out.println("*                 CONVERSOR DE MONEDAS                         *");
             System.out.println("*                                                              *");
             System.out.println("****************************************************************");
-            System.out.println("Sea Bienvenido/a al modelos.Conversor de Monedas\n");
+            System.out.println("Sea Bienvenido/a al Conversor de Monedas\n");
             System.out.println("1. Dólar ==> Peso Argentino");
             System.out.println("2. Peso Argentino ==> Dólar");
             System.out.println("3. Dólar ==> Real Brasileño");
