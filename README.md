@@ -14,7 +14,7 @@
 
 ## Índice  
 1. [Descripción del Proyecto](#descripción-del-proyecto)  
-2. [Características](#características)  
+2. [Características](#Características)  
 3. [Requisitos Previos](#requisitos-previos)  
 4. [Tecnologías Utilizadas](#tecnologías-utilizadas)  
 5. [Instalación](#instalación)  
