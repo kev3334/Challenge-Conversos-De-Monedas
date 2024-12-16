@@ -36,7 +36,8 @@ Este proyecto es un conversor de monedas desarrollado en Java que utiliza la **E
 
 ## 3. Requisitos Previos  
 - **Java 11 o superior** instalado en tu máquina.  
-- **Conexión a Internet** para acceder a la API de Exchange Rate.  
+- **Conexión a Internet** para acceder a la API de Exchange Rate.
+- **Libreria Gson (.jar)** para convertir objetos en Json. (https://mvnrepository.com/artifact/com.google.code.gson/gson)
 
 ## 4. Tecnologías Utilizadas  
 - **Lenguaje:** Java  
@@ -44,6 +45,28 @@ Este proyecto es un conversor de monedas desarrollado en Java que utiliza la **E
 - **API:** Exchange Rate API  
 
 ## 5. Instalación  
+Este proyecto depende de la librería **GSON** para el manejo de JSON. A continuación, te indicamos cómo agregarla a tu proyecto.
+
+  1. **Descargar GSON**:
+      - Descarga la librería GSON desde [aquí](https://repo1.maven.org/maven2/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar).
+  
+  2. **Agregar el archivo JAR**:
+      - Crea una carpeta en tu proyecto llamada `lib` y coloca el archivo `.jar` descargado en ella.
+  
+  3. **Incluir GSON en el classpath**:
+      - Al compilar y ejecutar el proyecto, asegúrate de incluir el archivo JAR en el classpath. En la terminal, usa el siguiente comando:
+  
+      ```bash
+      javac -cp .:lib/gson-2.10.1.jar Main.java
+      java -cp .:lib/gson-2.10.1.jar Main
+      ```
+  
+      En Windows, recuerda usar `;` como separador:
+  
+      ```bash
+      javac -cp .;lib/gson-2.10.1.jar Main.java
+      java -cp .;lib/gson-2.10.1.jar Main
+      ```
 Sigue estos pasos para clonar y ejecutar el proyecto:  
 ```bash  
 # Clonar el repositorio
@@ -62,11 +85,19 @@ java Main
 Una vez que la aplicación esté en ejecución, sigue las instrucciones en pantalla para:
 
 
-  1. Seleccionar las monedas de origen y destino. ![Elija Opcion valida](https://github.com/user-attachments/assets/4573c04d-45ce-4b21-86cf-a6bfdffceb55)
-  2. Ingresar la cantidad a convertir. ![Ingresa el valor a convertir](https://github.com/user-attachments/assets/2aad51f1-4d4e-47a3-a5c0-bf464fb5cb2e)
-  3. Ver el resultado en tiempo real basado en las tasas de cambio actuales. ![Resultado](https://github.com/user-attachments/assets/f7a2d9d5-e5c1-45cd-8cf7-33c9054728a0)
-  4. Seleccionar la opcion Salir del Programa. ![salir](https://github.com/user-attachments/assets/77eb1072-7b61-4bfe-90ad-be4b398dcfcd)
-  5. Programa Finalizado.
+  1. Seleccionar las monedas de origen y destino.
+     
+     ![Elija Opcion valida](https://github.com/user-attachments/assets/4573c04d-45ce-4b21-86cf-a6bfdffceb55)
+  3. Ingresar la cantidad a convertir.
+     
+     ![Ingresa el valor a convertir](https://github.com/user-attachments/assets/2aad51f1-4d4e-47a3-a5c0-bf464fb5cb2e)
+  5. Ver el resultado en tiempo real basado en las tasas de cambio actuales.
+     
+     ![Resultado](https://github.com/user-attachments/assets/f7a2d9d5-e5c1-45cd-8cf7-33c9054728a0)
+  7. Seleccionar la opcion Salir del Programa.
+     
+     ![salir](https://github.com/user-attachments/assets/77eb1072-7b61-4bfe-90ad-be4b398dcfcd)
+  9. Programa Finalizado.
    
      ![final](https://github.com/user-attachments/assets/615dad35-f110-41c1-8889-335506d517b8)
 
