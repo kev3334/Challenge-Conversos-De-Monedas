@@ -14,7 +14,7 @@
 
 ## Índice  
 1. [Descripción del Proyecto](#descripción-del-proyecto)  
-2. [Características](##Características)  
+2. [Características](#caracteristicas)  
 3. [Requisitos Previos](#requisitos-previos)  
 4. [Tecnologías Utilizadas](#tecnologías-utilizadas)  
 5. [Instalación](#instalación)  
@@ -28,7 +28,7 @@
 ## 1. Descripción del Proyecto  
 Este proyecto es un conversor de monedas desarrollado en Java que utiliza la **Exchange Rate API** para obtener tasas de cambio actualizadas en tiempo real. La aplicación es sencilla y eficiente, diseñada para convertir monedas rápidamente con datos precisos.  
 
-## 2. Características  
+## 2. Caracteristicas  
 - Convierte monedas en tiempo real utilizando datos actualizados.  
 - Interfaz de línea de comandos fácil de usar.  
 - Compatible con cualquier sistema operativo que soporte Java.  
